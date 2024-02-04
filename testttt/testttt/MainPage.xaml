@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Forms9Patch="clr-namespace:Forms9Patch;assembly=Forms9Patch"
+             x:Class="testttt.MainPage">
+
+    <StackLayout Spacing="50">
+        <Frame BackgroundColor="#2196F3" Padding="55" CornerRadius="0">
+            <Label Text="Getting Started" FontSize="Title" Margin="0, 50, 0, 0"/>
+        </Frame>
+
+        <Forms9Patch:Label x:Name="PhoneLabel"  HorizontalTextAlignment="Center" TextColor="Black">
+            <![CDATA[This is a phone number link: <a id="link1" href="tel:+353015546889">015546889</a> ]]>
+        </Forms9Patch:Label>
+
+        <Forms9Patch:Label x:Name="EmailLabel" HorizontalTextAlignment="Center" TextColor="Black">
+            <![CDATA[This is an email link: <a id="link2" href="mailto:email@hotmail.com">email@hotmail.com</a> ]]>
+        </Forms9Patch:Label>
+    </StackLayout>
+
+</ContentPage>
+
